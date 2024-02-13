@@ -3,7 +3,7 @@ const length = 12;
 const uprcase = "ABCDEFGHIGKLMNOPQRSTUVWXYZ";
 const lowercase ="abcdefghigklmnopqrstuvwxyz";
 const  number ="1234567890";
-const symbol ="?/><{}+_-*/$#@&*()";
+const symbol ="?/><+_-*/$#@&*";
 const allcra =uprcase+lowercase+number+symbol;
 function cretepassword(){
 let Password="";
